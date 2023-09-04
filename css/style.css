@@ -1,0 +1,211 @@
+body {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="783" viewBox="0 0 1440 783" fill="none"><path d="M-0.447266 0C-0.447266 0 438.375 0 719.553 0C1000.73 0 1439.55 0 1439.55 0V783C877.198 783 561.908 783 -0.447266 783V0Z" fill="%23131313"/><%2Fsvg>');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_container {
+    display: flex;
+    max-width: 1171px;
+    margin: 0 auto;
+    padding-top: 0%;
+    padding: 0;
+    flex-shrink: 0;
+    margin-top: 7.4%;
+}
+
+.header_container-content {
+    display: flex;
+    width: 442px;
+    flex-shrink: 0;
+    padding-top: 5.7%;
+    margin-right: 50px;
+}
+
+.header_container-image {
+    display: flex;
+    flex-direction: column;
+    width: 679px;
+}
+
+.header_nav {
+    display: flex;
+    margin-bottom: 7.3%;
+    white-space: nowrap;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    letter-spacing: -1.89px;
+    text-transform: uppercase;
+    width: 253px;
+}
+
+.header_text-line {
+    width: 92px;
+    height: 1px;
+    background-color: #E3B873;
+    float: right;
+    margin-top: 18px;
+}
+
+.header_text-content {
+    padding-top: 5.85%;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190.96%;
+    text-transform: none;
+}
+
+.header_text-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 11%;
+}
+
+.header_text-h2 {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    width: 189px;
+}
+
+.header_text-description {
+    display: flex;
+    padding-top: 3%;
+    font-size: 13px;
+    line-height: 163.68%;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    white-space: pre-line;
+}
+
+.header_item {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header_list {
+    display: flex;
+    width: 100%;
+    gap: 9%;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+.header_item::after {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #E3B873;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.header_item:hover::after,
+.header_item:active::after {
+    transform: scaleX(1);
+}
+
+.header_slider-image {
+    background: url('img/image2.1.png'), url('img/image2.png') lightgray 50% / cover no-repeat;
+    width: 679px;
+    height: 482px;
+}
+
+.header_slider-controls {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    margin-top: 11.1%;
+    gap: 6.3%;
+}
+
+.header_slider-dots {
+    display: flex;
+    justify-content: space-between;
+    width: 66px;
+    height: 19px;
+}
+
+#firstNavLink,
+#secondNavLink,
+#thirdNavLink {
+    color: #E3B873;
+}
+
+.header_slider-prev:not(.active) path,
+#firstNavLink:not(.active),
+#secondNavLink:not(.active),
+#thirdNavLink:not(.active) {
+    color: rgba(255, 255, 255, 0.30);
+}
+
+#firstNavLink:hover,
+#secondNavLink:hover,
+#thirdNavLink:hover {
+    color: #E3B873;
+}
+
+svg {
+    overflow: visible;
+}
+
+.header_slider-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.header_slider-controls .header_slider-dot.disabled {
+    background-color: white;
+}
+
+.header_slider-prev:hover path,
+.header_slider-next:hover path {
+    fill: white !important;
+    transform: scale(1.55);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.header_slider-dot:hover {
+    transform: scale(1.55);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+    background-color: white;
+}

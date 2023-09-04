@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container">
+            <div class="header_container-content">
+                <div class="header_text">
+                    <h1 class="header_text-h1">Completed projects
+                        <span class="header_text-line"></span>
+                    </h1>
+                    <p class="header_text-content">Only a small part of the work performed by our company is presented
+                        on the
+                        site. For 14 years on in the construction <br>market we have made happy more than 1000 families
+                    </p>
+                    <div class="header_text-box">
+                        <h2 class="header_text-h2">City:<span id="city" class="header_text-description">Rostov-on-Don
+                                <br>
+                                LCD admiral
+                            </span>
+                        </h2>
+                        <h2 class="header_text-h2">apartment area:<span id="apartmentArea"
+                                class="header_text-description">
+                                81 m2</span>
+                        </h2>
+                        <h2 class="header_text-h2">Repair time:<span id="repairTime" class="header_text-description">3.5
+                                months</span>
+                        </h2>
+                        <h2 class="header_text-h2">Repair Cost:<span id="repairCost"
+                                class="header_text-description">Upon
+                                request</span>
+                        </h2>
+                    </div>
+                    <div class="header_slider-controls">
+                        <a href="#" class="header_slider-prev"><svg width="42" height="14" viewBox="0 0 42 14"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M6.63807 13.276L2.29917e-05 6.638L6.63807 -3.82298e-05L7.58563 0.94753L1.89516 6.638L7.58563 12.3285L6.63807 13.276Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.947579 5.9681L41.4556 5.9681L41.4556 7.30817L0.947578 7.30816L0.947579 5.9681Z"
+                                    fill="white" />
+                            </svg></a>
+                        <div class="header_slider-dots">
+                            <div class="header_slider-dot"></div>
+                            <div class="header_slider-dot"></div>
+                            <div class="header_slider-dot"></div>
+                        </div>
+                        <a href="#" class="header_slider-next"><svg width="42" height="14" viewBox="0 0 42 14"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M35.0451 -0.000183105L41.6831 6.63786L35.0451 13.2759L34.0975 12.3283L39.788 6.63786L34.0975 0.947384L35.0451 -0.000183105Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M40.7355 7.30776L0.227539 7.30776L0.227539 5.9677L40.7355 5.9677L40.7355 7.30776Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_container-image">
+                <div class="header_nav">
+                    <ul class="header_list">
+                        <li><a id="firstNavLink" href="#" class="header_item">Rostov-on-Don, Admiral</a></li>
+                        <li><a id="secondNavLink" href="#" class="header_item">Sochi Thieves</a></li>
+                        <li><a id="thirdNavLink" href="#" class="header_item">Rostov-on-Don Patriotic</a></li>
+                    </ul>
+                </div>
+                <div class="header_slider">
+                    <div class="header_slider-image" style="background-image: url('img/image2.1.png');" alt="Design">
+                    </div>
+                    <div class="header_slider-image" style="background-image: url('img/image2.png');" alt="Design">
+                    </div>
+                    <div class="header_slider-image" style="background-image: url('img/image3.png');" alt="Design">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="./slider2.js"></script>
+</body>
+
+</html>

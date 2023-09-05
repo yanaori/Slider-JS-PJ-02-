@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Slider-JS-PJ-02-",
+  "main": "slider.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Jana",
+  "devDependencies": {
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "babel-jest": "^29.6.4",
+    "jest": "^29.6.4"
+  }
+}

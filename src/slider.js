@@ -8,7 +8,7 @@ const entities = [
                 cost: "Upon request"
             }
         ],
-        headerSliderImage: 'img/image2.1.png'
+        headerSliderImage: './img/image2.1.png'
     },
     {
         headerTextDescription: [
@@ -19,7 +19,7 @@ const entities = [
                 cost: "Upon request"
             }
         ],
-        headerSliderImage: 'img/image2.png'
+        headerSliderImage: './img/image2.png'
     },
     {
         headerTextDescription: [
@@ -30,7 +30,7 @@ const entities = [
                 cost: "Upon request"
             }
         ],
-        headerSliderImage: 'img/image3.png'
+        headerSliderImage: './img/image3.png'
     },
 ]
 
